@@ -7,6 +7,9 @@ from config import DB_PATH
 
 
 def main():
+    """
+    Main function to orchestrate the fetching, storing, analyzing, and reporting of PM2.5 data.
+    """
     logging.basicConfig(level=logging.INFO)
 
     db = Database(DB_PATH)
